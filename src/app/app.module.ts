@@ -8,6 +8,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { WorksComponent } from './pages/works/works.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { NotasComponent } from './pages/notas/notas.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   imports: [
@@ -22,7 +24,9 @@ import { ContactComponent } from './pages/contact/contact.component';
     SkillsComponent,
     ExperienceComponent,
     WorksComponent,
-    ContactComponent
+    ContactComponent,
+    NotasComponent,
+    NavComponent
   ]
 })
 export class AppModule { }
