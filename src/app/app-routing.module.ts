@@ -25,7 +25,7 @@ const routes: Routes = [
     component: WorksComponent
   },
   {
-    path: 'Notas',
+    path: 'notas',
     component: NotasComponent
   },
   {
